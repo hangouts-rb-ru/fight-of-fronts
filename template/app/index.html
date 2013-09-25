@@ -1,0 +1,116 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+<div class="container">
+
+<div class="row track-panel">
+  <div class="col-md-3">
+    <div class="btn-group">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+        Play List <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-3 pull-right">
+    <input type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+
+<div class="row track" >
+  <div class="col-md-4">
+    <img
+    class="img-rounded track-img"
+    src="http://www.okayfuture.com/wp-content/uploads/2013/07/erykah-badu-remixes.jpg"
+    />
+    <div style="display: inline-block; margin: 0 10px;">
+      <b>Bag Lady</b> by Erykah Badu
+    </div>
+  </div>
+</div>
+
+<div class="row track active-track" >
+  <div class="track-progress">
+    <div class="track-progress-bar" style="width: 300px;"></div>
+  </div>
+  <div class="col-md-4">
+    <img
+    class="track-img img-rounded"
+    src="http://www.okayfuture.com/wp-content/uploads/2013/07/erykah-badu-remixes.jpg" />
+    <div style="display: inline-block; margin: 0 10px;">
+      <b>Honey</b> by Erykah Badu
+    </div>
+  </div>
+  <div class="col-md-2 pull-right">
+    <span class="glyphicon glyphicon-heart"></span>
+  </div>
+</div>
+
+<div class="row track" >
+  <div class="col-md-4">
+    <img
+    class="img-rounded track-img"
+    src="http://www.okayfuture.com/wp-content/uploads/2013/07/erykah-badu-remixes.jpg"
+    />
+    <div style="display: inline-block; margin: 0 10px;">
+      <b>Bag Lady</b> by Erykah Badu
+    </div>
+  </div>
+</div>
+
+    </div>
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js(.tmp) scripts/coffee.js -->
+        <script src="scripts/hello.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+  padding: 30px;
+  background-color: #dfdfdf !important;
+}
+
+.track-panel {
+  margin-bottom: 20px;
+}
+
+.track {
+ border: 1px solid transparent;
+ padding: 10px 0;
+ margin: 5px 0;
+ position: relative;
+ cursor: pointer;
+}
+
+.track-img {
+}
+
+.track:hover {
+  border-color: #ccc;
+}
+.active-track {
+  background: white;
+  border-color: #ccc;
+}
+
+.track:hover .track-img,
+.active-track.track .track-img {
+  -webkit-filter: grayscale(0%);
+}
+
+.track .glyphicon {
+  font-size: 32px;
+  color: #ccc;
+  float: right;
+  height; 42px;
+  width; 42px;
+  padding-top:3px;
+}
+.track-img {
+  display: inline-block;
+  height: 42px;
+  margin-rigth: 10px;
+  -webkit-filter: grayscale(80%);
+}
+.track-progress {
+  position: absolute;
+  top: 11px;
+  left: 20px;
+  height: 42px;
+}
+.track-progress-bar {
+  background: #eee;
+  height: 42px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}
